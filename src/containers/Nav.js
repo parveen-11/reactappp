@@ -23,7 +23,7 @@ function  Nav () {
                 <i className="fa-solid fa-bars d-phone menu"id="show" ></i>
                 <i className=" fa-solid fa-xmark d-phone menu1"id="hide" ></i>
                 <ul>
-                  <a href="home.html"><li>Home</li></a>
+                  <li><Link to="/">Home</Link></li>
                   <li><Link to="/courses" >Courses</Link></li>
                   <li><Link to="/faq">FAQS</Link></li>
                   <li><Link to="/About">About</Link></li>
@@ -31,8 +31,8 @@ function  Nav () {
               </div>
             </div>
             <div className="col-sm-2">
-              <button type="button" className=" loginbtn" data-bs-toggle="modal" data-bs-target="#myModal">
-              login
+              <button type="button" className="loginbtn">
+              <Link to="/login">login</Link>
               </button>    
             </div>
           </div>

@@ -347,11 +347,11 @@ function  Courses (){
                     </div>
                 </div>
                 <div class="ourteamdoctor">
-                    <div class="col-sm-5">
+                    <div className="col-sm-5">
                         <img src={Ourteamdoctor} />
                     </div>
-                    <div class="col-sm-7">
-                        <div class="ourteamdoctortext">
+                    <div className="col-sm-7">
+                        <div className="ourteamdoctortext">
                             <h2>Our Team</h2>
                             <p>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
