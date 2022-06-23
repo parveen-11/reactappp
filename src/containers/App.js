@@ -18,6 +18,7 @@ function App() {
   return (
     <div className="App">
       <Router>
+
         {pathname !== '/login' && <Nav />}
           <Routes>
             <Route path="/" component={App} />
